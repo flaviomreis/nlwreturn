@@ -1,0 +1,10 @@
+###
+POST http://localhost:3333/feedbacks
+content-type: application/json
+
+{
+    "type": "BUG",
+    "comment": "Tem bugs"
+}
+
+###
