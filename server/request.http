@@ -4,17 +4,17 @@ content-type: application/json
 
 {
     "type": "BUG",
-    "comment": "Tem bugs ainda 14",
+    "comment": "Tem bugs ainda 20",
     "screenshot" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAANhJREFUOI2t001KBDEUBOAvafEUboRWb6AIM44ieiDBnxvYhxoEGRBv4NqFp5BxXCStErp17J7a5VWlUry8F3TjEodY4iPXIio8Y95z7wv7aDD9RTPLmr0+wQmu88t/IWbtpCQOMvFf3JTJmjWTdCVrSM27wAteBxit8I464hiLASYtHnEUs+NYrKLvORltFDZgZFNGIWJrpFlArLCNHcO+H07x1h7GDOT9z8IurgYY3aEuixPrL22FWx1L26KWos56+IAzqRV1SXThXFqdpbRPrbbCEx7KC5+q+h9bfQIOmgAAAABJRU5ErkJggg=="
 }
 
 ###P
-OST http://localhost:3333/feedbacks
+POST http://localhost:3333/feedbacks
 content-type: application/json
 
 {
     "type": "BUG",
-    "comment": "Tem bugs ainda 15 - Sem screenshot",
+    "comment": "Tem bugs ainda 17 - Sem screenshot"
 }
 
 ###
