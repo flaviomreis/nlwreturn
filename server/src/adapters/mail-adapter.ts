@@ -1,6 +1,7 @@
 export interface SendMailDto {
   subject: string;
   body: string;
+  screenshot?: string;
 }
 
 export interface MailAdapter {
