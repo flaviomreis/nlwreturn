@@ -5,7 +5,7 @@ import { router } from './routes';
 const app = express();
 app.use(
   cors({
-    origin: 'https://nlwreturn-delta.vercel.app',
+    origin: '*',
   })
 );
 app.use(express.json());
